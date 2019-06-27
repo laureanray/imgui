@@ -1397,6 +1397,8 @@ int ImStrlenW(const ImWchar* str)
     return n;
 }
 
+int x = 123;
+
 // Find end-of-line. Return pointer will point to either first \n, either str_end.
 const char* ImStreolRange(const char* str, const char* str_end)
 {
